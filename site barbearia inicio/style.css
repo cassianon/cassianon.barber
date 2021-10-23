@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body {
+    height: 100%;
+    
+}
+.header img {
+    
+    height: 200px;
+    margin:35px;
+    
+    
+}
+.header {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-image: url(img/bg-barbearia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 7px black;
+}
+.container {
+    display: flex;
+}
+.nav-bar li a {
+    display: block;
+    background-color: blue;
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 15px 20px;
+    
+    
+    
+}
+.article {
+    background-color:#cbcbcbcb;
+    padding: 30px;
+    border-radius: 40px 0 0 0;
+    margin: 15px;
+    
+
+    
+}
+.article img {
+    width: 600px;
+}
+p {
+    margin: 15px;
+}
+footer {
+    background-color: rgb(192, 192, 192);
+    padding: 30px;
+    text-align: center;
+    color:blue;
+    
+    
+}
