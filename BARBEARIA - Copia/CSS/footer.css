@@ -1,0 +1,11 @@
+/****************************************************************
+                                    FOOTER
+*****************************************************************/
+
+.footer {
+    background-color: var(--color-secondary-dark);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}

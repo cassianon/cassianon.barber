@@ -1,0 +1,32 @@
+@import "home.css";
+@import "about.css";
+@import "services.css";
+@import "appointment.css";
+@import "gallery.css";
+@import "location.css";
+@import "footer.css";
+@import "root.css";
+@import "banner.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1050px){
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
